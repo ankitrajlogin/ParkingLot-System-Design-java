@@ -2,6 +2,7 @@ package org.ankitrajlogin.parkinglot.model;
 
 public class Ticket {
     private final String ticketId; // format: <parking_lot_id>_<floor_no>_<slot_no>
+    @SuppressWarnings("unused")
     private final String parkingLotId;
     private final int floorNo;
     private final int slotNo;
